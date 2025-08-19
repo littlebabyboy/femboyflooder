@@ -17,7 +17,7 @@ The script is fully configurable and can be run with multiple options.
 ### Usage
 
 **Run HTTP 1.0 version with default settings:**
-node "femboy_flooder - 1.0.js" https://example.com 60 10 64 proxies.txt
+- node "femboy_flooder - 1.0.js" https://example.com 60 10 64 proxies.txt
 
 **Run HTTP 2.0 version with Windows User-Agent and random query string:**
 - node "femboy_flooder - 1.0.js" https://example.com 30 5 32 proxies.txt --delay=100 --cookies=true
